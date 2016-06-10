@@ -1,30 +1,47 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
+@import url(https://fonts.googleapis.com/css?family=Nixie+One);
 
-.parallax {
-  perspective: 1px;
-  height:100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+.hero h1 {
+  font-family: 'Nixie One', cursive;
+  color: #07223d;
+  font-size: 4.375em;
+  font-weight: 400;
 }
 
-.parallax_layer {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+.hero h2 {
+  font-family: 'Nixie One', cursive;
+  color: #fbeee5;
+  font-weight: 400;
 }
 
-.parallax_layer-base {
-  tansform: translateZ(0);
+.hero {
+  position: relative;
+  text-align: center;
+  width:100%;
 }
 
-.parallax_layer-back{
-  transform: translateZ(-1px);
+.inner {
+  position:absolute;
+  top:50%; left:50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 200px;
+}
+
+.box {
+  height: 50vh;
+}
+
+#nav-link-id {
+  color: #efc6a8;
+}
+
+#nav-link-id:hover {
+  color: #fbeee5;
 }
 
 #bs-example-navbar-collapse-1 {
-  border-color: #4b4358;
+  border-color: #efc6a8;
 }
 
 #navbar-brand-id {
@@ -82,31 +99,25 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 370px;
 }
 
 .box1 {
   background-color: #efc6a8;
-  height: 370px;
 }
 
 .box2 {
   background-color: #fbeee5;
-  height: 370px;
 }
 
 .box3 {
   background-color: #3a354c;
-  height: 370px;
 }
 
 .box4 {
   background-color: #442640;
-  height: 370px;
 }
 
 .box5 {
   background-color: #07223d;
-  height: 370px;
 }
 
