@@ -1,11 +1,38 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
-.navbar-brand {
+#bs-example-navbar-collapse-1 {
+  border-color: #4b4358;
+}
+
+#navbar-brand-id {
+  margin-top: -10px;
   font: 32px/42px 'Open Sans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  color: #29232D;
+  color: #4b4358;
   letter-spacing: 1px;
+}
+
+#navbar-brand-id:hover {
+  color: #332b3a;
+}
+
+#navbar-toggle-id {
+  border-color: transparent;
+}
+
+#navbar-toggle-id:hover {
+  border-color: transparent;
+  background-color: #332b3a;
+}
+
+#navbar-toggle-id:focus {
+  border-color: transparent;
+  background-color: #332b3a;
+}
+
+#icon-bar-id {
+  background-color: #4b4358;
 }
 
 .navbar#navbar-id {
@@ -13,12 +40,43 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: transparent;
-  border-color: transparent;
+  border-radius: 0;
+  background-color: #a9b8b3;
+  border-color: #a9b8b3;
 }
 
 .spacer {
-  height: 50px;
+  height: 30px;
   width: 100%;
-  margin-bottom: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.hero {
+  background:url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 370px;
+}
+
+.box1 {
+  background-color: #e6ddd4;
+  height: 370px;
+}
+
+.box2 {
+  background-color: #332b3a;
+  height: 370px;
+}
+
+.box3 {
+  background-color: #6d8879;
+  height: 370px;
+}
+
+.box4 {
+  background-color: #4b4358;
+  height: 370px;
 }
