@@ -1,5 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 
+.parallax {
+  perspective: 1px;
+  height:100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax_layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.parallax_layer-base {
+  tansform: translateZ(0);
+}
+
+.parallax_layer-back{
+  transform: translateZ(-1px);
+}
+
 #bs-example-navbar-collapse-1 {
   border-color: #4b4358;
 }
@@ -9,30 +32,31 @@
   font: 32px/42px 'Open Sans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  color: #4b4358;
+  color: #efc6a8;
   letter-spacing: 1px;
 }
 
 #navbar-brand-id:hover {
-  color: #332b3a;
+  color: #fbeee5;
 }
 
 #navbar-toggle-id {
   border-color: transparent;
+  background-color: #efc6a8;
 }
 
 #navbar-toggle-id:hover {
   border-color: transparent;
-  background-color: #332b3a;
+  background-color: #fbeee5;
 }
 
 #navbar-toggle-id:focus {
   border-color: transparent;
-  background-color: #332b3a;
+  background-color: #fbeee5;
 }
 
 #icon-bar-id {
-  background-color: #4b4358;
+  background-color: #442640;
 }
 
 .navbar#navbar-id {
@@ -41,8 +65,8 @@
   top: 0;
   width: 100%;
   border-radius: 0;
-  background-color: #a9b8b3;
-  border-color: #a9b8b3;
+  background-color: #442640;
+  border-color: #442640;
 }
 
 .spacer {
@@ -62,21 +86,27 @@
 }
 
 .box1 {
-  background-color: #e6ddd4;
+  background-color: #efc6a8;
   height: 370px;
 }
 
 .box2 {
-  background-color: #332b3a;
+  background-color: #fbeee5;
   height: 370px;
 }
 
 .box3 {
-  background-color: #6d8879;
+  background-color: #3a354c;
   height: 370px;
 }
 
 .box4 {
-  background-color: #4b4358;
+  background-color: #442640;
   height: 370px;
 }
+
+.box5 {
+  background-color: #07223d;
+  height: 370px;
+}
+
