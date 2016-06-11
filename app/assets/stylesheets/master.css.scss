@@ -1,18 +1,44 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 @import url(https://fonts.googleapis.com/css?family=Nixie+One);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
+
+::-moz-selection { /* Code for Firefox */
+    background: rgba(68, 38, 64, 0.75);
+}
+
+::selection { 
+    background: rgba(68, 38, 64, 0.75);
+}
+
+#btn-success-id {
+  background-color: #442640;
+  border-color: #442640;
+}
+
+#btn-success-id:hover {
+  background-color: #381f35;
+  border-color: #381f35;
+}
+
+#btn-success-id:focus {
+  background-color: #381f35;
+  border-color: #381f35;
+}
 
 .hero h1 {
-  font-family: 'Nixie One', cursive;
-  color: #07223d;
-  font-size: 8vw;
-  font-weight: 400;
+  font-family: 'Quattrocento', serif;
+  color: #442640;
+  font-size: 8vh;
+  font-weight: 700;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .hero h2 {
-  font-family: 'Nixie One', cursive;
+  font-family: 'Quattrocento', serif;
   color: #fbeee5;
-  font-weight: 400;
-  font-size: 4vw;
+  font-weight: 700;
+  font-size: 4vh;
+  text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .hero {
