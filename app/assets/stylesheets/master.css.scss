@@ -3,11 +3,11 @@
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
 
 ::-moz-selection { /* Code for Firefox */
-    background: rgba(68, 38, 64, 0.75);
+    background: rgba(158, 207, 231, 0.5);
 }
 
 ::selection { 
-    background: rgba(68, 38, 64, 0.75);
+    background: rgba(158, 207, 231, 0.5);
 }
 
 #user_alert {
@@ -63,7 +63,7 @@
   top:50%; left:50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  height: 200px;
+  height: 60vh;
 }
 
 .box {
