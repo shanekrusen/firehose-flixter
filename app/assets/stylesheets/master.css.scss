@@ -10,6 +10,17 @@
     background: rgba(68, 38, 64, 0.75);
 }
 
+#user_alert {
+    position:fixed;
+    top:50px;
+    width:100%;
+    z-index: 9999;
+    height: 50px;
+    padding: 13px;
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
+
 #btn-success-id {
   background-color: #275ea3;
   border-color: #275ea3;
@@ -60,6 +71,7 @@
 }
 
 #nav-link-id {
+  margin-top: 7px;
   font-weight: 400;
   font-style: bold;
   color: #275ea3;
