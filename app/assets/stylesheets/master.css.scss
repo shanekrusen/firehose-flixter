@@ -11,30 +11,30 @@
 }
 
 #btn-success-id {
-  background-color: #442640;
-  border-color: #442640;
+  background-color: #275ea3;
+  border-color: #275ea3;
 }
 
 #btn-success-id:hover {
-  background-color: #381f35;
-  border-color: #381f35;
+  background-color: #9ecfe7;
+  border-color: #9ecfe7;
 }
 
 #btn-success-id:focus {
-  background-color: #381f35;
-  border-color: #381f35;
+  background-color: #9ecfe7;
+  border-color: #9ecfe7;
 }
 
 .hero h1 {
-  font-family: 'Quattrocento', serif;
-  color: #442640;
+  font-family: 'Open Sans', sans-serif;
+  color: #9ecfe7;
   font-size: 5vh;
   font-weight: 700;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .hero h2 {
-  font-family: 'Quattrocento', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fbeee5;
   font-weight: 700;
   font-size: 4vh;
@@ -62,15 +62,15 @@
 #nav-link-id {
   font-weight: 400;
   font-style: bold;
-  color: #efc6a8;
+  color: #275ea3;
 }
 
 #nav-link-id:hover {
-  color: #fbeee5;
+  color: #9ecfe7;
 }
 
 #bs-example-navbar-collapse-1 {
-  border-color: #efc6a8;
+  border-color: #275ea3;
 }
 
 #navbar-brand-id {
@@ -78,31 +78,31 @@
   font: 32px/42px 'Open Sans', sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  color: #efc6a8;
+  color: #275ea3;
   letter-spacing: 1px;
 }
 
 #navbar-brand-id:hover {
-  color: #fbeee5;
+  color: #9ecfe7;
 }
 
 #navbar-toggle-id {
   border-color: transparent;
-  background-color: #efc6a8;
+  background-color: #275ea3;
 }
 
 #navbar-toggle-id:hover {
   border-color: transparent;
-  background-color: #fbeee5;
+  background-color: #9ecfe7;
 }
 
 #navbar-toggle-id:focus {
   border-color: transparent;
-  background-color: #fbeee5;
+  background-color: #9ecfe7;
 }
 
 #icon-bar-id {
-  background-color: #442640;
+  background-color: #000010;
 }
 
 .navbar#navbar-id {
@@ -111,8 +111,8 @@
   top: 0;
   width: 100%;
   border-radius: 0;
-  background-color: #442640;
-  border-color: #442640;
+  background-color: #000010;
+  border-color: #000010;
 }
 
 .spacer {
@@ -123,7 +123,8 @@
 }
 
 .hero {
-  background:url('hero.jpg') no-repeat center center fixed;
+  // background:url('hero.jpg') no-repeat center center fixed;
+  background-color: #000010;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -131,22 +132,22 @@
 }
 
 .box1 {
-  background-color: #efc6a8;
+  background-color: #275ea3;
 }
 
-.box2 {
-  background-color: #fbeee5;
-}
+// .box2 {
+  // background-color: #fbeee5;
+// }
 
 .box3 {
-  background-color: #3a354c;
+  background-color: #9ecfe7;
 }
 
 .box4 {
-  background-color: #442640;
+  background-color: #4b5354;
 }
 
-.box5 {
-  background-color: #07223d;
-}
+// .box5 {
+  // background-color: #07223d;
+// }
 
