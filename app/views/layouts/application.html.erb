@@ -20,6 +20,18 @@
   </head>
 
   <body>
+  	<% if notice.present? %>
+    <div class="alert alert-info" id="user_alert_info">
+    	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    	<%= notice %>
+    </div>
+  <% end %>
+  <% if alert.present? %>
+    <div class="alert alert-danger" id ="user_alert_danger">
+    	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    	<%= alert %>
+    </div>
+  <% end %>
   	<nav class="navbar navbar-default" id="navbar-id">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
