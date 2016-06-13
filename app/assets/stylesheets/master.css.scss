@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,800);
 @import url(https://fonts.googleapis.com/css?family=Nixie+One);
 @import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
+@import url(https://fonts.googleapis.com/css?family=Fanwood+Text);
 
 ::-moz-selection { /* Code for Firefox */
     background: rgba(158, 207, 231, 0.5);
@@ -8,6 +9,10 @@
 
 ::selection { 
     background: rgba(158, 207, 231, 0.5);
+}
+
+.clr {
+  clear:both;
 }
 
 .new-user {
